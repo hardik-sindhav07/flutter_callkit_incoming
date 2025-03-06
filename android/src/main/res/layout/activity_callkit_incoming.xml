@@ -122,20 +122,11 @@
 
                 <com.hiennv.flutter_callkit_incoming.widgets.RippleRelativeLayout
                     android:layout_width="@dimen/size_button_x2_5"
-                    android:layout_height="@dimen/size_button_x2_5"
+                    android:layout_height="50dp"
                     app:ripple_amount="4"
                     app:ripple_radius="@dimen/base_margin_x1_5"
                     app:ripple_scale="4.5">
 
-                    <ImageView
-                        android:id="@+id/ivDeclineCall"
-                        android:layout_width="@dimen/size_button"
-                        android:layout_height="@dimen/size_button"
-                        android:layout_centerInParent="true"
-                        android:background="@drawable/bg_button_decline"
-                        android:padding="@dimen/base_margin_x1_5"
-                        android:src="@drawable/ic_decline"
-                        tools:ignore="ContentDescription" />
 
                     <TextView
                         android:id="@+id/tvDecline"
@@ -145,7 +136,8 @@
                         android:layout_marginBottom="@dimen/base_margin"
                         android:gravity="center"
                         android:text="@string/text_decline"
-                        android:textColor="@color/action_text"
+                        android:background="@color/action_text"
+                        android:textColor="#0955fa"
                         android:textSize="@dimen/size_text_action" />
 
                 </com.hiennv.flutter_callkit_incoming.widgets.RippleRelativeLayout>
@@ -167,21 +159,11 @@
 
                 <com.hiennv.flutter_callkit_incoming.widgets.RippleRelativeLayout
                     android:layout_width="@dimen/size_button_x2_5"
-                    android:layout_height="@dimen/size_button_x2_5"
+                    android:layout_height="50dp"
                     app:ripple_amount="4"
                     app:ripple_radius="@dimen/base_margin_x1_5"
                     app:ripple_scale="4.5">
 
-
-                    <ImageView
-                        android:id="@+id/ivAcceptCall"
-                        android:layout_width="@dimen/size_button"
-                        android:layout_height="@dimen/size_button"
-                        android:layout_centerInParent="true"
-                        android:background="@drawable/bg_button_accept"
-                        android:padding="@dimen/base_margin_x1_5"
-                        android:src="@drawable/ic_accept"
-                        tools:ignore="ContentDescription" />
 
                     <TextView
                         android:id="@+id/tvAccept"
@@ -191,7 +173,8 @@
                         android:layout_marginBottom="@dimen/base_margin"
                         android:gravity="center"
                         android:text="@string/text_accept"
-                        android:textColor="@color/action_text"
+                        android:background="@color/action_text"
+                        android:textColor="#0955fa"
                         android:textSize="@dimen/size_text_action" />
 
 
